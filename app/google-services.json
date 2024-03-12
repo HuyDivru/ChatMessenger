@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549347319683",
+    "project_id": "ng-nh-p",
+    "storage_bucket": "ng-nh-p.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549347319683:android:b863391611232f4e9f60b6",
+        "android_client_info": {
+          "package_name": "com.example.chatmessager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549347319683-23dvinjg0kamqcc2geooejve37q085uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcE_IFnXxaYyoPK-FCl-yRc5tUOB2368M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549347319683-23dvinjg0kamqcc2geooejve37q085uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
