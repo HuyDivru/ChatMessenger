@@ -127,11 +127,11 @@ class ChatAppViewModel:ViewModel() {
         return messageRepo.getMessages(friend)
     }
     //get recentUsers
-    private fun getRecentUsers():LiveData<List<RecentChats>> {
+    fun getRecentUsers():LiveData<List<RecentChats>> {
         return chatListRepo.getAllChatList()
     }
 
-    private fun getCurrentUser()=viewModelScope.launch(Dispatchers.IO) {
+   fun getCurrentUser()=viewModelScope.launch(Dispatchers.IO) {
         val context=MyApplication.instance.applicationContext
 
         firestore.collection("Users").document(Utils.getUidLoggedIn()).addSnapshotListener{
